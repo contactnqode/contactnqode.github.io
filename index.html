@@ -29,12 +29,22 @@ body, html {
   left: 16px;
 }
 
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+}
+
 .middle {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+p {
+  font-size:25px;
 }
 
 hr {
@@ -44,16 +54,21 @@ hr {
 </style>
 <body>
 
-<div class="bgimg">
+<div>
   <div class="topleft">
     <!-- <p>Logo</p> -->
+    <img src="logo.png" width="300" height="100">
   </div>
   <div class="middle">
-    <h1 style="font-size: 70px">COMING SOON</h1>
+    <h1 style="font-size: 60px;">Our new website is on its way</h1>
     <hr>
+    <p>Hold tight as we get our working robots together and produce the most astonishing website ever.</p>
   </div>
   <div class="bottomleft">
     <p>@2022 nQode.io</p>
+  </div>
+  <div class="bottomright">
+    <p>contact@nqode.io</p>
   </div>
 </div>
 
